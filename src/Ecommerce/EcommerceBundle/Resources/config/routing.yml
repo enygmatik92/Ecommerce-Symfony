@@ -1,0 +1,11 @@
+ecommerce_homepage:
+    path:     /hello
+    defaults: { _controller: EcommerceBundle:Default:index }
+
+ecommerce_first:
+    path:   /first
+    defaults: {_controller: EcommerceBundle:Default:firstTest }
+    
+ecommerce_second:
+    path:   /second
+    defaults: {_controller: EcommerceBundle:Default:firstTest }
